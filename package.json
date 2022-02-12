@@ -1,0 +1,15 @@
+{
+  "name": "tempconverter",
+  "version": "1.0.0",
+  "description": "App to convert celsius to fahrenheit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Edward Martin",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "jest": "^27.5.1"
+  }
+}
