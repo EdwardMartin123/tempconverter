@@ -1,8 +1,8 @@
 {
   "name": "tempconverter",
   "version": "1.0.0",
-  "description": "App to convert celsius to fahrenheit",
-  "main": "index.js",
+  "description": "App to convert celsius to fahrenheit and vice versa",
+  "main": "tempconverter.js",
   "scripts": {
     "test": "test"
   },
