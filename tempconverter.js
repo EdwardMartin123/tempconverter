@@ -23,7 +23,6 @@ program.command('f2c')
             console.log(`%f Fahrenheit is %f Celsius`, parseInt(options.number).toFixed(0), f2c(options.number).toFixed(0))
         }
         catch (error) {
-            console.log(error)
             if (error === "NaN") console.log("Enter a valid number")
         }
     })
