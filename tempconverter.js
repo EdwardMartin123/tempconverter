@@ -1,7 +1,10 @@
-const { program, Option } = require('commander')
+const { program } = require('commander')
 const { c2f, f2c } = require('./converters')
 
+program.description('CLI to convert Celsius to Fahrenheit and vice versa')
+
 program.command('c2f')
+    .description('Convert Celsius to Fahrenheit')
     .requiredOption('-n, --number <value>', 'the temperature value to be converted')
     .action((options) => {
         try {
@@ -13,6 +16,7 @@ program.command('c2f')
     })
 
 program.command('f2c')
+    .description('Convert Fahrenheit to Celsius')
     .requiredOption('-n, --number <value>', 'the temperature value to be converted')
     .action((options) => {
         try {
@@ -25,6 +29,3 @@ program.command('f2c')
     })
 
 program.parse()
-
-
-
